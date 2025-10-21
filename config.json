@@ -1,0 +1,28 @@
+{
+  "review": {
+    "depth": "detailed",
+    "tone": "constructive",
+    "excludedFiles": [
+      "*.min.js",
+      "*.min.css",
+      "**/dist/**",
+      "**/build/**",
+      "**/node_modules/**",
+      "**/*.generated.*",
+      "**/package-lock.json",
+      "**/yarn.lock"
+    ],
+    "focusAreas": [
+      "security",
+      "performance",
+      "best-practices",
+      "code-quality"
+    ],
+    "maxComments": 10
+  },
+  "openai": {
+    "model": "gpt-4",
+    "maxTokens": 2000,
+    "temperature": 0.3
+  }
+}
