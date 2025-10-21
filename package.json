@@ -1,0 +1,26 @@
+{
+  "name": "reviewer01",
+  "version": "1.0.0",
+  "description": "AI-powered Azure Function for automated pull request reviews in Azure DevOps",
+  "main": "dist/PRReviewFunction/index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "prestart": "npm run build",
+    "start": "func start",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": ["azure-functions", "devops", "ai", "code-review", "openai"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/functions": "^4.8.0",
+    "axios": "^1.12.2",
+    "minimatch": "^10.0.3",
+    "openai": "^6.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.9.1",
+    "typescript": "^5.9.3"
+  }
+}

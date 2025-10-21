@@ -1,0 +1,66 @@
+{
+  "subscriptionId": "00000000-0000-0000-0000-000000000000",
+  "notificationId": 1,
+  "id": "00000000-0000-0000-0000-000000000000",
+  "eventType": "git.pullrequest.created",
+  "publisherId": "tfs",
+  "message": {
+    "text": "User Name created a new pull request",
+    "html": "User Name created a new pull request",
+    "markdown": "User Name created a new pull request"
+  },
+  "detailedMessage": {
+    "text": "User Name created a new pull request:\n\n- Merge status: Succeeded\n- Merge commit: 2c8f0e3e5bc8e3e3e3e3e3e3e3e3e3e3e3e3e3e3e"
+  },
+  "resource": {
+    "repository": {
+      "id": "00000000-0000-0000-0000-000000000000",
+      "name": "MyRepository",
+      "url": "https://dev.azure.com/MyOrg/MyProject/_apis/git/repositories/00000000-0000-0000-0000-000000000000",
+      "project": {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "MyProject",
+        "url": "https://dev.azure.com/MyOrg/_apis/projects/00000000-0000-0000-0000-000000000000",
+        "state": "wellFormed"
+      },
+      "remoteUrl": "https://dev.azure.com/MyOrg/MyProject/_git/MyRepository"
+    },
+    "pullRequestId": 1,
+    "status": "active",
+    "createdBy": {
+      "displayName": "User Name",
+      "uniqueName": "user@example.com",
+      "id": "00000000-0000-0000-0000-000000000000"
+    },
+    "creationDate": "2024-01-01T12:00:00.000Z",
+    "title": "Add new feature",
+    "description": "This PR adds a new feature to the application",
+    "sourceRefName": "refs/heads/feature/new-feature",
+    "targetRefName": "refs/heads/main",
+    "mergeStatus": "succeeded",
+    "isDraft": false,
+    "mergeId": "00000000-0000-0000-0000-000000000000",
+    "lastMergeSourceCommit": {
+      "commitId": "2c8f0e3e5bc8e3e3e3e3e3e3e3e3e3e3e3e3e3e3",
+      "url": "https://dev.azure.com/MyOrg/MyProject/_apis/git/repositories/00000000-0000-0000-0000-000000000000/commits/2c8f0e3e5bc8e3e3e3e3e3e3e3e3e3e3e3e3e3e3"
+    },
+    "lastMergeTargetCommit": {
+      "commitId": "1a7b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0t",
+      "url": "https://dev.azure.com/MyOrg/MyProject/_apis/git/repositories/00000000-0000-0000-0000-000000000000/commits/1a7b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0t"
+    },
+    "url": "https://dev.azure.com/MyOrg/MyProject/_apis/git/repositories/00000000-0000-0000-0000-000000000000/pullRequests/1"
+  },
+  "resourceVersion": "1.0",
+  "resourceContainers": {
+    "collection": {
+      "id": "00000000-0000-0000-0000-000000000000"
+    },
+    "account": {
+      "id": "00000000-0000-0000-0000-000000000000"
+    },
+    "project": {
+      "id": "00000000-0000-0000-0000-000000000000"
+    }
+  },
+  "createdDate": "2024-01-01T12:00:00.000Z"
+}
